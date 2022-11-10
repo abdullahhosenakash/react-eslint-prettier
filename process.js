@@ -45,7 +45,17 @@
 		"react-hooks/rules-of-hooks": "error", // Checks rules of Hooks
 		"react-hooks/exhaustive-deps": "warn", // Checks effect dependencies
 		"no-alert": "off",
-		"comma-dangle": ["error", "never"]
+		"comma-dangle": ["error", "never"],
+		"react/prop-types": 0,
+		"object-curly-newline": [
+			"error",
+			{
+				"ObjectExpression": "always",
+				"ObjectPattern": { "multiline": true },
+				"ImportDeclaration": "never",
+				"ExportDeclaration": { "multiline": true, "minProperties": 2 }
+			}
+		]
 	}
 }
 

@@ -44,9 +44,11 @@
 		"no-console": 0,
 		"react-hooks/rules-of-hooks": "error", // Checks rules of Hooks
 		"react-hooks/exhaustive-deps": "warn", // Checks effect dependencies
-		"no-alert": "off"
+		"no-alert": "off",
+		"comma-dangle": ["error", "never"]
 	}
 }
+
 
 
 

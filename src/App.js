@@ -1,13 +1,8 @@
-import { useEffect, useState } from 'react';
 import './App.css';
 import logo from './logo.svg';
 
 function App() {
-  const [count] = useState(0);
-  useEffect(() => {
-    console.log(count);
-  }, [count]);
-  console.log('hello');
+  const name_of_me = 'aa';
   return (
     <div className="App">
          <header className="App-header">
